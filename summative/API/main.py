@@ -75,3 +75,16 @@ def health_check():
     Health check endpoint to verify if the API is running.
     """
     return {"status": "ok"}
+
+@app.get("/")
+def root():
+    """
+    Root endpoint to provide information about the API.
+    """
+    return {
+        "message": "Welcome to the Prediction API!",
+        "endpoints": {
+            "/predict": "Make predictions using the model",
+            "/health": "Check API health"
+        }
+    }
