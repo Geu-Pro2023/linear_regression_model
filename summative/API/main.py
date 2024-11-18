@@ -18,20 +18,19 @@ important_features = model_retrained.feature_names_in_.tolist()
 
 # Define the Pydantic model for request validation
 class PredictionRequest(BaseModel):
-    # Dynamically generate fields based on the feature names
-    Hair: float
-    Feathers: float
-    Backbone: float
-    Class_Type: float
-    Fins: float
     Animal_Name_clam: float
     Animal_Name_slug: float
     Animal_Name_seawasp: float
     Animal_Name_worm: float
     Animal_Name_octopus: float
+    Hair: float
+    Feathers: float
+    Backbone: float
+    Class_Type: float
+    Fins: float
 
     class Config:
-        json_schema_extra = {  # Updated to use `json_schema_extra`
+        schema_extra = {
             "example": {
                 "Animal_Name_clam": 1.0,
                 "Animal_Name_slug": 0.0,
@@ -50,8 +49,8 @@ class PredictionRequest(BaseModel):
 def predict(request: PredictionRequest):
     try:
         # Log the incoming request
-        logging.info(f"Received request: {request}")
-
+        logging.info(f"Received request: {request.json()}")
+        
         # Convert input data to a DataFrame
         request_data = request.dict()
         df_input = pd.DataFrame([request_data])
@@ -65,9 +64,13 @@ def predict(request: PredictionRequest):
         # Return the prediction result
         return {"prediction": prediction[0]}
 
+    except KeyError as ke:
+        error_message = f"Missing or incorrect feature: {ke}"
+        logging.error(error_message)
+        raise HTTPException(status_code=400, detail=error_message)
     except Exception as e:
         logging.error(f"Prediction failed: {e}")
-        raise HTTPException(status_code=500, detail=str(e))
+        raise HTTPException(status_code=500, detail="An unexpected error occurred during prediction.")
 
 @app.get("/health")
 def health_check():
