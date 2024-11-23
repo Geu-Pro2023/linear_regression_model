@@ -1,4 +1,5 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import joblib
 import pandas as pd
@@ -6,6 +7,22 @@ import logging
 
 # Initialize the app
 app = FastAPI()
+
+# Configure CORS middleware
+origins = [
+    "http://localhost",         # Allow requests from local development
+    "http://localhost:3000",    # Adjust for your proxy setup or frontend
+    "http://127.0.0.1:8000",    # Adjust for local testing
+    "*"                         # Allow all origins if required
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Enable logging for debugging
 logging.basicConfig(level=logging.INFO)
