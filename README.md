@@ -136,8 +136,6 @@ For API documentation and testing:
     "Class_Type": 2
 }
 
-**Response**
-```
 {
     "prediction": 65.2
 }
