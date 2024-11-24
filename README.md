@@ -103,3 +103,19 @@ For API documentation and testing:
     "Fins": 0,
     "Class_Type": 2
 }
+
+#### **Response**
+```json
+{
+    "prediction": 65.2
+}
+
+## **Screenshots**
+1.
+2.
+
+## **Demo Links**
+1. **Public API:** https://linear-regressionl-api.onrender.com
+2. **Swagger Documentation:** API Docs
+3. **Source Code:** GitHub Repository
+4. **YouTube Demo Video:** Watch the Demo
