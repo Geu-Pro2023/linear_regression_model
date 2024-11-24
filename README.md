@@ -110,6 +110,8 @@ For API documentation and testing:
     "prediction": 65.2
 }
 
+---
+
 ## **Screenshots**
 1.
 2.
