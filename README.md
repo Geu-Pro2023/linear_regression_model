@@ -12,8 +12,8 @@
 6. [Screenshots](#screenshots)  
 7. [Demo Links](#demo-links)  
 8. [How to Run the Project](#how-to-run-the-project)  
-    - Backend (API)  
-    - Mobile App  
+    - [Backend (API)](#backend-api)  
+    - [Mobile App](#mobile-app)  
 9. [Mission Statement](#mission-statement)  
 10. [Challenges and Learnings](#challenges-and-learnings)  
 
@@ -109,70 +109,3 @@ For API documentation and testing:
 {
     "prediction": 65.2
 }
-
----
-
-## **Screenshots**
-1.
-2.
-
----
-
-## **How to Run the Project**
-### **Backend (API)**
-
-1. **Clone the repository:**
-
-```
-git clone https://github.com/Geu-Pro2023/linear_regression_model.git  
-cd linear_regression_model  
-
-```
-
-2. **Install dependencies:**
-
-```
- pip install -r requirements.txt   
-```
-
-3. Run the API:
-
-```
-uvicorn main:app --host 0.0.0.0 --port 8000  
-```
-
-4. Access the API locally:
-
-```
-http://127.0.0.1:8000/docs.
-```
-
-## **Mobile App**
-1. Install Flutter on your machine.
-2. Clone the mobile app repository or navigate to the app folder.
-3. Fetch dependencies and run the app:
-
-```
-flutter pub get  
-flutter run
-
-```
-
-## **Mission Statement**
-Wildlife conservation is an urgent global need. This project demonstrates how machine learning can aid in prioritizing conservation efforts based on scientific data. By providing accessible tools, this project aims to empower researchers and organizations to make informed decisions.
-
-## **Challenges and Learnings**
-1. **Data Processing:** Handling categorical variables and ensuring feature alignment between the training dataset and API input.
-2. **Integration:** Linking the API with the Flutter app required robust validation and error handling.
-3. **Deployment:** Hosting on Render and ensuring CORS compatibility for public accessibility.
-UI/UX: Designing a mobile app interface that's both functional and intuitive.
-
-
-## **Contributing**
-I want to express my gratitude to the following for their invaluable contributions:
-- The Dart and Flutter teams for providing robust tools and frameworks.
-- My facilitator for teaching me flutter
-
-## **License**
-This project is licensed under the MIT License.
-   
