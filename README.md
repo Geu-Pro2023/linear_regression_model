@@ -52,7 +52,33 @@ The project integrates:
 ### **Mobile App**  
 - **Flutter**: For cross-platform mobile application development.  
 - **Dart**: Language used for Flutter development.  
-- **FontAwesome Icons**: For enhanced UI elements.  
+- **FontAwesome Icons**: For enhanced UI elements.
+
+  ## **Mobile App**  
+The mobile app is built using **Flutter** and allows users to interact with the wildlife conservation score prediction model through a user-friendly interface.
+
+### **Features**  
+- **User Interface**: The app provides an intuitive interface with dropdowns, text fields, and an image carousel for animal features.
+- **Prediction**: Users can input data for different animal characteristics and receive a prediction on the species' conservation score.
+
+### **How to Run the Mobile App**  
+1. **Install Flutter**: Follow the instructions to [install Flutter](https://flutter.dev/docs/get-started/install) on your system.  
+2. **Clone the Mobile App Repository**: If the mobile app code is separate, clone the repository for the mobile app:
+    ```bash
+    git clone https://github.com/YourUsername/your-mobile-app-repo.git
+    cd your-mobile-app-repo
+    ```
+3. **Install Dependencies**: Run the following command to install the required dependencies:
+    ```bash
+    flutter pub get
+    ```
+4. **Run the App**: Launch the app on an emulator or a connected device:
+    ```bash
+    flutter run
+    ```
+
+The app will launch, and you can start making predictions based on animal data input.
+
 
 ### **Machine Learning**  
 - **Algorithm**: Linear Regression, chosen for its interpretability and suitability for numeric predictions.  
@@ -140,3 +166,5 @@ For API documentation and testing:
     "prediction": 65.2
 }
 
+ 
+    
