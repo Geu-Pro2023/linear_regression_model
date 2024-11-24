@@ -75,6 +75,42 @@ The dataset used for model training was sourced from the **[Kaggle Zoo Animal Cl
 
 ---
 
+## **Installation and Setup**
+
+1. Clone the repository:
+
+```
+ git clone https://github.com/yourusername/book-explorer-app.git
+```
+
+2. Navigate to the project directory:
+
+```
+ cd book-explorer-app
+```
+
+3. Install dependencies:
+
+```
+flutter pub get
+```
+
+4. Run the application:
+
+```
+flutter run
+```
+
+## **Contributing**
+I want to express my gratitude to the following for their invaluable contributions:
+- The Dart and Flutter teams for providing robust tools and frameworks.
+- My facilitator for teaching me flutter
+
+## **License**
+This project is licensed under the MIT License.
+   
+
+
 ## **Public API Endpoint**  
 The backend API is publicly hosted on Render, making it accessible worldwide for predictions.
 
