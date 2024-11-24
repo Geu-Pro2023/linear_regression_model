@@ -14,9 +14,6 @@
 8. [How to Run the Project](#how-to-run-the-project)  
     - [Backend (API)](#backend-api)  
     - [Mobile App](#mobile-app)  
-9. [Mission Statement](#mission-statement)  
-10. [Challenges and Learnings](#challenges-and-learnings)  
-
 ---
 
 ## **Mission Statement**  
