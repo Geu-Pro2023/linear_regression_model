@@ -61,7 +61,7 @@ The project integrates:
 ---
 
 ## **Dataset Information**  
-The dataset used for model training was sourced from the **[UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Zoo)**.  
+The dataset used for model training was sourced from the **[Kaggle Zoo Animal Classification Dataset](https://www.kaggle.com/code/krishnabhatt4/zoo-animal-classification/input?select=zoo.csv)**.  
 
 ### **Key Features**  
 1. **Hair**: Presence of hair (1 = Yes, 0 = No).  
