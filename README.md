@@ -80,35 +80,31 @@ The dataset used for model training was sourced from the **[Kaggle Zoo Animal Cl
 1. Clone the repository:
 
 ```
- git clone https://github.com/yourusername/book-explorer-app.git
+git clone https://github.com/Geu-Pro2023/linear_regression_model.git  
 ```
 
 2. Navigate to the project directory:
 
 ```
- cd book-explorer-app
+ cd linear_regression_model
 ```
 
 3. Install dependencies:
 
 ```
-flutter pub get
+pip install -r requirements.txt
 ```
 
-4. Run the application:
+4. Run the API:
 
 ```
-flutter run
+uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 
-## **Contributing**
-I want to express my gratitude to the following for their invaluable contributions:
-- The Dart and Flutter teams for providing robust tools and frameworks.
-- My facilitator for teaching me flutter
-
-## **License**
-This project is licensed under the MIT License.
-   
+5. Access the API locally:
+```
+http://127.0.0.1:8000/docs
+```
 
 
 ## **Public API Endpoint**  
@@ -140,22 +136,9 @@ For API documentation and testing:
     "Class_Type": 2
 }
 
-#### **Response**
+**Response**
 ```json
 {
     "prediction": 65.2
 }
-
----
-
-# **Contributing**
-I want to express my gratitude to the following for their invaluable contributions:
-- The Dart and Flutter teams for providing robust tools and frameworks.
-- My facilitator for teaching me flutter
-
-# **License**
-This project is licensed under the MIT License.
-
----
-
 
