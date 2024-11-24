@@ -4,7 +4,7 @@
 ---
 
 ## **Table of Contents**  
-1. [Introduction](#introduction)  
+1. [Mission Statement](#introduction)  
 2. [Features](#features)  
 3. [Technologies Used](#technologies-used)  
 4. [Dataset Information](#dataset-information)  
@@ -19,7 +19,7 @@
 
 ---
 
-## **Introduction**  
+## **Mission Statement**  
 Wildlife populations worldwide face increasing threats due to climate change, habitat destruction, and poaching. This project is designed to help conservationists and researchers predict a species' conservation score based on biological features, assisting in prioritizing efforts to protect wildlife.  
 
 The project integrates:  
