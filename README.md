@@ -79,9 +79,9 @@ The mobile app is built using **Flutter** and allows users to interact with the 
 
 The app will launch, and you can start making predictions based on animal data input.
 
-### **Screenshots**
-1. ![Screenshot 2024-11-24 131310](https://github.com/user-attachments/assets/cc70473d-d143-438b-9fb9-03340150dc67)
-2. ![Screenshot 2024-11-24 131440](https://github.com/user-attachments/assets/a5ac1878-51dc-42a6-bc9c-6b3822645897)
+### **Screenshots of App **
+![Screenshot 2024-11-24 131310](https://github.com/user-attachments/assets/cc70473d-d143-438b-9fb9-03340150dc67)
+![Screenshot 2024-11-24 131440](https://github.com/user-attachments/assets/a5ac1878-51dc-42a6-bc9c-6b3822645897)
 
 
 ### **Machine Learning**  
@@ -170,9 +170,3 @@ For API documentation and testing:
     "prediction": 65.2
 }
 
-
-## **Contributing**  
-```markdown
-I want to express my gratitude to the following for their invaluable contributions:
-- The Dart and Flutter teams for providing robust tools and frameworks.
-- My facilitator for teaching me Flutter.
