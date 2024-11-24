@@ -91,9 +91,7 @@ The app will launch, and you can start making predictions based on animal data i
 ---
 
 ## **Demo Links**  
-You can try out the demo of the project through the following link:  
-
-[**Live Demo**]: https://youtu.be/lDil3xyAgiI
+Click this link to watch the demo video: https://youtu.be/lDil3xyAgiI
 
 
 ## **Dataset Information**  
