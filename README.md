@@ -79,7 +79,7 @@ The mobile app is built using **Flutter** and allows users to interact with the 
 
 The app will launch, and you can start making predictions based on animal data input.
 
-### **Screenshots of App **
+### **Screenshots of App**
 ![Screenshot 2024-11-24 131310](https://github.com/user-attachments/assets/cc70473d-d143-438b-9fb9-03340150dc67)
 ![Screenshot 2024-11-24 131440](https://github.com/user-attachments/assets/a5ac1878-51dc-42a6-bc9c-6b3822645897)
 
@@ -89,6 +89,12 @@ The app will launch, and you can start making predictions based on animal data i
 - **Features**: Focused on biological traits of animals such as Hair, Feathers, and Backbone.  
 
 ---
+
+## **Demo Links**  
+You can try out the demo of the project through the following link:  
+
+[**Live Demo**]: https://youtu.be/lDil3xyAgiI
+
 
 ## **Dataset Information**  
 The dataset used for model training was sourced from the **[Kaggle Zoo Animal Classification Dataset](https://www.kaggle.com/code/krishnabhatt4/zoo-animal-classification/input?select=zoo.csv)**.  
