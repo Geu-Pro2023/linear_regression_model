@@ -1,0 +1,24 @@
+name: wildlife_predictor
+description: A new Flutter project
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"  # This line ensures compatibility with Dart SDK
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.2.1
+  google_fonts: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  intl: ^0.18.0 
+
+flutter:
+  assets:
+    - assets/images/Cow.jpg
+    - assets/images/Deer.jpg
+    - assets/images/Elephant.jpg
+    - assets/images/Giraffa.jpg
+    - assets/images/lion.jpg
