@@ -76,7 +76,7 @@ The dataset used for model training was sourced from the **[Kaggle Zoo Animal Cl
 ---
 
 ## **Public API Endpoint**  
-The backend API is publicly hosted on Render, making it accessible worldwide for predictions.  
+The backend API is publicly hosted on Render, making it accessible worldwide for predictions.
 
 ### **Base URL**  
 [https://linear-regressionl-api.onrender.com](https://linear-regressionl-api.onrender.com)  
@@ -124,52 +124,37 @@ For API documentation and testing:
 3. **Source Code:** GitHub Repository
 4. **YouTube Demo Video:** Watch the Demo
 
----
+## **Installation and Setup**
 
+1. Clone the repository:
 
-Response
-json
-Copy code
-{
-    "prediction": 65.2
-}
-Screenshots
-Mobile App Screenshots
-Prediction Screen	Info Screen	Image Carousel
-Demo Links
-Public API: https://linear-regressionl-api.onrender.com
-Swagger Documentation: API Docs
-Source Code: GitHub Repository
-YouTube Demo Video: Watch the Demo
-How to Run the Project
-Backend (API)
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/Geu-Pro2023/linear_regression_model.git  
-cd linear_regression_model  
-Install dependencies:
-bash
-Copy code
-pip install -r requirements.txt  
-Run the API:
-bash
-Copy code
-uvicorn main:app --host 0.0.0.0 --port 8000  
-Access the API locally at http://127.0.0.1:8000/docs.
-Mobile App
-Install Flutter on your machine.
-Clone the mobile app repository or navigate to the app folder.
-Fetch dependencies and run the app:
-bash
-Copy code
-flutter pub get  
-flutter run  
-Mission Statement
-Wildlife conservation is an urgent global need. This project demonstrates how machine learning can aid in prioritizing conservation efforts based on scientific data. By providing accessible tools, this project aims to empower researchers and organizations to make informed decisions.
+```
+ git clone https://github.com/yourusername/book-explorer-app.git
+```
 
-Challenges and Learnings
-Data Processing: Handling categorical variables and ensuring feature alignment between the training dataset and API input.
-Integration: Linking the API with the Flutter app required robust validation and error handling.
-Deployment: Hosting on Render and ensuring CORS compatibility for public accessibility.
-UI/UX: Designing a mobile app interface that's both functional and intuitive.
+2. Navigate to the project directory:
+
+```
+ cd book-explorer-app
+```
+
+3. Install dependencies:
+
+```
+flutter pub get
+```
+
+4. Run the application:
+
+```
+flutter run
+```
+
+## **Contributing**
+I want to express my gratitude to the following for their invaluable contributions:
+- The Dart and Flutter teams for providing robust tools and frameworks.
+- My facilitator for teaching me flutter
+
+## **License**
+This project is licensed under the MIT License.
+   
