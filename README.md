@@ -110,10 +110,16 @@ For API documentation and testing:
     "prediction": 65.2
 }
 
-## **Contributing**
+---
+
+# **Contributing**
 I want to express my gratitude to the following for their invaluable contributions:
 - The Dart and Flutter teams for providing robust tools and frameworks.
 - My facilitator for teaching me flutter
 
-## **License**
+# **License**
 This project is licensed under the MIT License.
+
+---
+
+
